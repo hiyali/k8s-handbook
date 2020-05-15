@@ -12,7 +12,7 @@ brew install helm
 helm repo add istio.io https://storage.googleapis.com/istio-release/releases/1.5.4/charts/
 kubectl create ns istio-system
 helm install istio-init istio.io/istio-init --namespace istio-system
-# check above result `kubectl get crds | grep 'istio.io\|certmanager.k8s.io' | wc -l` should gt 25
+# check above result `kubectl get crds | grep 'istio.io\|certmanager.k8s.io' | wc -l` should gte 25
 # wait a few minutes
 helm install istio istio.io/istio --namespace istio-system --set grafana.enabled=true
 kubectl label ns default istio-injection=enabled

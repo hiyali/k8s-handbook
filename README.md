@@ -7,7 +7,7 @@
 | --- | --- | --- | --- | --- |
 | Node | `no` | physical cluster | | A node may be a virtual or physical machine, depending on the cluster. |
 | PersistentVolume | `pv` | physical cluster | | - |
-| Namespace | `ns` | cluster |  | A namespace virtual clusters that backed by the same physical cluster |
+| Namespace | `ns` | cluster |  | A namespace virtual clusters that backed by the same physical cluster (`-n` same with `--namespace` in command arguments) |
 | PersistentVolumeClaim | `pvc` | cluster | | - |
 | StorageClass | `sc` | cluster | | - |
 | Pod | `po` | ns | | The smallest and simplest unit in the Kubernetes object model that you create or deploy. |

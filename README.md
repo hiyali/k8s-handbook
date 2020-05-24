@@ -15,6 +15,8 @@
 | ReplicationController | `rc` | ns | | may deprecated |
 | Service | `svc` | ns | | An abstract way to expose an application running on a set of Pods as a network service. |
 | Job | `job` | ns | | Creates one or more Pods and ensures that a specified number of them successfully terminate. |
+| CronJob | | ns | | |
+| Endpoint | | ns | | |
 | Ingress | `ing` | ns | | Ingress may provide load balancing, SSL termination and name-based virtual hosting. |
 | Deployment | `deploy` | ns | | Provides declarative updates for Pods and ReplicaSets. |
 | DaemonSet | `ds` | ns | | |

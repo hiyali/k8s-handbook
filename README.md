@@ -1,4 +1,4 @@
-# k8s-101
+# k8s-handbook
 > A quick look at Kubernetes
 
 ## K8s objects

@@ -23,3 +23,7 @@
 | RoleBinding | | ns | Security | |
 | ClusterRole | | cluster | Security | |
 | ClusterRoleBinding | | cluster | Security | |
+| PodSecurityPolicy | `psp` | cluster | Security | |
+| NetworkPolicy | | cluster | Security | |
+| LimitRange | | cluster | Security | |
+| ResourceQuota | | cluster | Security | |

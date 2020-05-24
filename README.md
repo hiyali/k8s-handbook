@@ -27,3 +27,6 @@
 | NetworkPolicy | | cluster | Security | |
 | LimitRange | | cluster | Security | |
 | ResourceQuota | | cluster | Security | |
+| HorizontalPodAutoscaler | `hpa` | namespace | Resilience | |
+| ClusterAutoscaler | | cluster | Resilience | |
+| PodDisruptionBudget | `pdb` | namespace | Resilience | |

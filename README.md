@@ -32,3 +32,7 @@
 | HorizontalPodAutoscaler | `hpa` | namespace | Resilience | |
 | ClusterAutoscaler | | cluster | Resilience | |
 | PodDisruptionBudget | `pdb` | namespace | Resilience | |
+| Workflow | `wf` | ns | Workflow | |
+| WorkflowTemplate | `wftmpl` | ns | Workflow | |
+| ClusterWorkflowTemplate | `cwft` | cluster | Workflow | |
+| CronWorkflow | `cwf` | ns | Workflow | |
